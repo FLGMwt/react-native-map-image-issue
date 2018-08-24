@@ -31,7 +31,7 @@ const ExampleImage = () => (
   <Image
     source={launcher}
     style={{ width: 100, height: 100 }}
-    resizeMode="contain"
+    resizeMode="cover"
   />
 );
 
@@ -45,7 +45,7 @@ export default class MyApp extends React.Component {
 
     return (
       <View style={{ flex: 1 }}>
-        <View style={{ flex: 1 }}>
+        <View style={{ flex: 3 }}>
           <View style={styles.mapContainer}>
             <MapView
               style={styles.map}
@@ -64,7 +64,7 @@ export default class MyApp extends React.Component {
                     longitude: -122.4324
                   }}
                 >
-                  <MapView.Callout true>
+                  <MapView.Callout>
                     <View>
                       <Text>foo</Text>
                       <ExampleImage />
