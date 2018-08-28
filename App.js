@@ -19,12 +19,9 @@ import MapView from "react-native-maps";
 import launcher from "./ic_launcher.png";
 
 const styles = StyleSheet.create({
-  mapContainer: {
+  fillContainer: {
     ...StyleSheet.absoluteFillObject
   },
-  map: {
-    ...StyleSheet.absoluteFillObject
-  }
 });
 
 const ExampleImage = () => (
@@ -46,9 +43,9 @@ export default class MyApp extends React.Component {
     return (
       <View style={{ flex: 1 }}>
         <View style={{ flex: 3 }}>
-          <View style={styles.mapContainer}>
+          <View style={styles.fillContainer}>
             <MapView
-              style={styles.map}
+              style={styles.fillContainer}
               region={{
                 latitude: 37.78825,
                 longitude: -122.4324,
