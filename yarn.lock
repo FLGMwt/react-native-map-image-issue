@@ -4433,9 +4433,9 @@ react-native-maps@^0.21.0:
     babel-plugin-module-resolver "^2.3.0"
     babel-preset-react-native "1.9.0"
 
-react-native@0.57.0-rc.2:
-  version "0.57.0-rc.2"
-  resolved "https://registry.yarnpkg.com/react-native/-/react-native-0.57.0-rc.2.tgz#59d7c7abcf78d7f6c2005041659f640c55769dab"
+react-native@0.57.0-rc.3:
+  version "0.57.0-rc.3"
+  resolved "https://registry.yarnpkg.com/react-native/-/react-native-0.57.0-rc.3.tgz#35919f2ff10e0635b616f4e1fcca84f58188660e"
   dependencies:
     absolute-path "^0.0.0"
     art "^0.10.0"
